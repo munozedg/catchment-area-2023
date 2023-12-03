@@ -4,7 +4,7 @@
 
 /* ods graphics on; */
 
-/* optional varss for cummulative ss by each succesive factor */
+/* optional varss for cumulative ss by each successive factor */
 
 proc pls data=WORK.IMPORT cv=split cvtest(seed=78254) plots=(corrload(nfac=3) 
 		diagnostics vip weights(unpack) xyscores) method=rrr;
